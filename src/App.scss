@@ -1,0 +1,22 @@
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.first {
+  padding-left: 0 !important;
+}
+
+.last {
+  margin-right: 0 !important;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  margin-right: 80px;
+}
