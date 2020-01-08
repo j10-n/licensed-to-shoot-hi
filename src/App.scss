@@ -2,6 +2,11 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  font-family: "Roboto", sans-serif;
+  a {
+    text-decoration: none;
+    color: black;
+  }
 }
 
 .first {
@@ -15,11 +20,18 @@
 h1 {
   display: flex;
   justify-content: center;
+  font-family: "Cabin", sans-serif;
+  font-size: 40px;
 }
 
 ul {
-  margin-right: 80px;
+  margin-right: 10px;
+  margin-bottom: 30px;
 }
 
-.content {
+.about {
+  height: 72vh;
+  width: 70%;
+  border: 1px solid #2a3d45;
+  margin: auto;
 }

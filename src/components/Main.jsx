@@ -1,18 +1,18 @@
 import React from "react";
 import { Route, NavLink, BrowserRouter as Router } from "react-router-dom";
 
-import Home from "./components/Home";
-import About from "./components/About";
-import Athletes from "./components/Athletes";
-import Videos from "./components/Videos";
-import Schools from "./components/Schools";
-import Contact from "./components/Contact";
+import Home from "./Home";
+import About from "./About";
+import Athletes from "./Athletes";
+import Videos from "./Videos";
+import Schools from "./Schools";
+import Contact from "./Contact";
 
 class Main extends React.Component {
   render() {
     return (
       <div className="dashboard">
-        <h1>Licensed to Shoot Hawaii</h1>
+        <h1>LICENSED TO SHOOT HAWAII</h1>
         <li className="menu">
           <ul className="first">
             <NavLink to="/home">Home</NavLink>

@@ -4,7 +4,7 @@ import "./App.scss";
 
 import { Route, NavLink, BrowserRouter as Router } from "react-router-dom";
 
-import Main from "../src/Main";
+import Main from "./components/Main";
 
 class App extends React.Component {
   render() {
