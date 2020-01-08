@@ -1,13 +1,13 @@
 import React from "react";
 
-class Home extends React.Component {
+class Videos extends React.Component {
   render() {
     return (
       <div>
-        <p>Home panel</p>
+        <h1>VIDEOS</h1>
       </div>
     );
   }
 }
 
-export default Home;
+export default Videos;
